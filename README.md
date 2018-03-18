@@ -7,7 +7,7 @@ NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/down
 Users may also access the code to replicate "Secondary Observer Effects", another finding based on two reproductions of the original Brooks and Manza macro-data by myself and Lane Kenworthy (this is forthcoming as a separate Repository).
 
 # Stata Project
-All steps in the coding process are available as a Stata project [missingmain.stpr]. From the project all users can execute each step only the way as a separate do-file.
+All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project all users can execute each step only the way as a separate do-file.
 
 ## International Social Survey Program (ISSP) Data
 To build the macro-data used in the replication, users must get access to the ISSP data via GESIS/ZACAT. Then dowload the following data in Stata format and save to the path "C:/data/": 
