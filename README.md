@@ -25,4 +25,10 @@ Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Rep
 The file [isspmrg.do]( works up and merges the data.
 
 
-### ISSP 
+## REPLICATION ANALYSES
+
+Users may shortcut to the replications with the worked up macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
+
+The file [missmain1] produces that results for Tables 1 and 2
+
+
