@@ -8,7 +8,14 @@ NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/down
 All steps in the coding process are available as a Stata project [missingmain.stpr]. From the project all users can execute each step only the way as a separate do-file.
 
 ## International Social Survey Program (ISSP) Data
-To build the macro-data used in the replication, users must get access to the ISSP data via GESIS/ZACAT. 
-Links directly to data: _Role of Government_ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 1990 ([ZA1950.dta](http://dx.doi.org/10.4232/1.1950)), 1996 ([ZA2900.dta](http://dx.doi.org/10.4232/1.2900)) and 2006 ([ZA4700.dta](http://dx.doi.org/10.4232/1.4700)); and _Religion_ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
+To build the macro-data used in the replication, users must get access to the ISSP data via GESIS/ZACAT.
+
+Then dowload the following data in Stata format and save to the path "C:/data/": 
+
+_Role of Government_ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 1990 ([ZA1950.dta](http://dx.doi.org/10.4232/1.1950)), 1996 ([ZA2900.dta](http://dx.doi.org/10.4232/1.2900)) and 2006 ([ZA4700.dta](http://dx.doi.org/10.4232/1.4700))
+
+_Religion_ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
+
+The file [isspmrg.do] works up and merges the data.
 
 ### ISSP 
