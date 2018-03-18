@@ -26,3 +26,6 @@ do missmain1
 
 *Table 3 Replication plus main effect
 do missmain3
+
+*Sensitivity Analyses
+do sense
