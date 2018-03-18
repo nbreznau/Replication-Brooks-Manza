@@ -41,10 +41,6 @@ The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/m
 
 ### Table 1
 
-          ------------------------------------------------------------------------------------------------------------------------------------------------------------
-            log type:  smcl
-           opened on:  18 Mar 2018, 22:28:32
-
           . esttab m1a m1b m2a m2b
 
           ----------------------------------------------------------------------------
@@ -183,3 +179,14 @@ The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/m
           ----------------------------------------------------------------------------
           t statistics in parentheses
           * p<0.05, ** p<0.01, *** p<0.001
+
+# COMMENTS / REACTIONS
+
+## Weakliem's Comment
+
+David Weakliem replicated my work and changed the liberal regime variable, moving Japan into the common as opposed to civic law 'regime'. He published this comment in Sociological Science. I provide his code here (this is still forthcoming).
+
+## Political Science Replication (Blog by Janz)
+
+["The Replication Road"](https://politicalsciencereplication.wordpress.com/2015/07/15/guest-post-the-replication-road-scientific-detour-or-destination-by-nate-breznau/)
+
