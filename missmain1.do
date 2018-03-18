@@ -39,3 +39,4 @@ esttab m1a m1b m2a m2b
 pwcorr libdem rIa rIIa rIaa rIIaa, sig
 
 log close
+markdoc tbl1and2.smcl, markup(markdown) export(md) replace install style("simple")

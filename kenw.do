@@ -4,7 +4,7 @@ import excel /data/2009ser-data.xls, sheet("Sheet1") firstrow case(lower) clear
 gen uniqueID = _n
 sort uniqueID
 
-save /data/kenworthy.dta
+save /data/kenworthy.dta, replace
 *Merge
 use /data/1working.dta, clear
 merge uniqueID using /Data/kenworthy.dta

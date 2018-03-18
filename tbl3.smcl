@@ -1,0 +1,79 @@
+{smcl}
+{txt}{sf}{ul off}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\data\MISSING_MAIN\tbl3.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}18 Mar 2018, 23:15:07
+{txt}
+{com}. 
+. esttab m1a m1b m2a m2b
+{res}
+{txt}{hline 76}
+{txt}                      (1)             (2)             (3)             (4)   
+{txt}                 socprotZ        socprotZ        socprotZ        socprotZ   
+{txt}{hline 76}
+{txt}yeardvz     {res}        0.278**         0.362*          0.301**         0.326** {txt}
+            {res} {ralign 12:{txt:(}2.98{txt:)}}    {ralign 12:{txt:(}2.85{txt:)}}    {ralign 12:{txt:(}3.43{txt:)}}    {ralign 12:{txt:(}3.66{txt:)}}   {txt}
+
+{txt}gdp_ppp     {res}       -0.565***       -0.868***       -0.529**        -0.577** {txt}
+            {res} {ralign 12:{txt:(}-5.53{txt:)}}    {ralign 12:{txt:(}-7.10{txt:)}}    {ralign 12:{txt:(}-3.75{txt:)}}    {ralign 12:{txt:(}-3.79{txt:)}}   {txt}
+
+{txt}unemp       {res}        0.349           0.326           0.441*          0.460*  {txt}
+            {res} {ralign 12:{txt:(}2.02{txt:)}}    {ralign 12:{txt:(}1.15{txt:)}}    {ralign 12:{txt:(}2.17{txt:)}}    {ralign 12:{txt:(}2.31{txt:)}}   {txt}
+
+{txt}aged        {res}       0.0176           0.601          0.0362          0.0243   {txt}
+            {res} {ralign 12:{txt:(}0.24{txt:)}}    {ralign 12:{txt:(}1.90{txt:)}}    {ralign 12:{txt:(}0.56{txt:)}}    {ralign 12:{txt:(}0.34{txt:)}}   {txt}
+
+{txt}femlabor    {res}        0.282***        0.333**         0.301***        0.321***{txt}
+            {res} {ralign 12:{txt:(}7.07{txt:)}}    {ralign 12:{txt:(}3.40{txt:)}}    {ralign 12:{txt:(}7.42{txt:)}}    {ralign 12:{txt:(}8.19{txt:)}}   {txt}
+
+{txt}veto5       {res}       -0.147           1.566*         -0.259         -0.0677   {txt}
+            {res} {ralign 12:{txt:(}-0.58{txt:)}}    {ralign 12:{txt:(}2.72{txt:)}}    {ralign 12:{txt:(}-0.72{txt:)}}    {ralign 12:{txt:(}-0.20{txt:)}}   {txt}
+
+{txt}govsATZ     {res}        0.614                           0.712                   {txt}
+            {res} {ralign 12:{txt:(}0.63{txt:)}}                    {ralign 12:{txt:(}0.75{txt:)}}                   {txt}
+
+{txt}0bn.libdem  {res}            .                               .               .   {txt}
+            {res}            .                               .               .   {txt}
+
+{txt}1.libdem    {res}       -9.014***                       -8.299***       -8.113***{txt}
+            {res} {ralign 12:{txt:(}-5.79{txt:)}}                    {ralign 12:{txt:(}-4.27{txt:)}}    {ralign 12:{txt:(}-4.23{txt:)}}   {txt}
+
+{txt}0bn.libdem~Z{res}            .                               .                   {txt}
+            {res}            .                               .                   {txt}
+
+{txt}1.libdem#c~Z{res}       -0.567                          -0.707                   {txt}
+            {res} {ralign 12:{txt:(}-0.52{txt:)}}                    {ralign 12:{txt:(}-0.65{txt:)}}                   {txt}
+
+{txt}socialpoli~s{res}                        4.630***                        0.872   {txt}
+            {res}                 {ralign 12:{txt:(}4.90{txt:)}}                    {ralign 12:{txt:(}0.84{txt:)}}   {txt}
+
+{txt}0bn.libdem~s{res}                            .                               .   {txt}
+            {res}                            .                               .   {txt}
+
+{txt}1.libdem#c~s{res}                       -3.723**                        -0.777   {txt}
+            {res}                 {ralign 12:{txt:(}-3.27{txt:)}}                    {ralign 12:{txt:(}-0.72{txt:)}}   {txt}
+
+{txt}religpccab  {res}                                       0.0191          0.0234   {txt}
+            {res}                                 {ralign 12:{txt:(}0.85{txt:)}}    {ralign 12:{txt:(}0.95{txt:)}}   {txt}
+
+{txt}leftpccab   {res}                                     -0.00222        -0.00251   {txt}
+            {res}                                 {ralign 12:{txt:(}-0.23{txt:)}}    {ralign 12:{txt:(}-0.27{txt:)}}   {txt}
+
+{txt}_cons       {res}        17.13**         5.982           13.19*          12.83*  {txt}
+            {res} {ralign 12:{txt:(}3.85{txt:)}}    {ralign 12:{txt:(}0.86{txt:)}}    {ralign 12:{txt:(}2.52{txt:)}}    {ralign 12:{txt:(}2.65{txt:)}}   {txt}
+{txt}{hline 76}
+{txt}N           {res}           43              43              43              43   {txt}
+{txt}{hline 76}
+{txt}t statistics in parentheses
+{txt}* p<0.05, ** p<0.01, *** p<0.001
+
+{com}. 
+. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\data\MISSING_MAIN\tbl3.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}18 Mar 2018, 23:15:07
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

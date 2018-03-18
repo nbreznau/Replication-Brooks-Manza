@@ -1,5 +1,6 @@
 use /data/ISSP85to06.dta, clear
 
+log using measures, replace
 *Additive scale
 gen Aadded = govjobs + govincdiff
 factor govjobs govincdiff
@@ -45,3 +46,5 @@ label var govsR "Social Policy Preferences Org. Metric NO W"
 label var govsNR "Social Policy Preferences Org. Metric P"
 
 save /data/working.dta, replace
+log close
+markdoc measures.smcl, markup(markdown) export(md) replace install style("simple")
