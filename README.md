@@ -18,11 +18,11 @@ __Religion__ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA
 
 ## Kenworthy's Reproduction
 
-Users will also need the file [2009ser-data.xls] made available on [Lane Kenworthy's website](https://lanekenworthy.net/cv/#articles) saved in the folder C:/data/.
+Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/2009ser-data.xls) made available on [Lane Kenworthy's website](https://lanekenworthy.net/cv/#articles) saved in the folder C:/data/.
 
 ## Commands
 
-The file [isspmrg.do] works up and merges the data.
+The file [isspmrg.do]( works up and merges the data.
 
 
 ### ISSP 
