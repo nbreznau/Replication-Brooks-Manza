@@ -35,7 +35,8 @@ The file [missmain1] produces that results for Tables 1 and 2
 
 ### Results
 
-<p>{smcl} {com}{sf}{ul off}{txt}{.-} name:  {res}<unnamed> {txt}log:  {res}C:\data\MISSING_MAIN\tbl1and2.smcl {txt}log type:  {res}smcl {txt}opened on:  {res}18 Mar 2018, 22:28:32 {txt} {com}. . <em>Table 1: Results . esttab m1a m1b m2a m2b {res} {txt}{hline 76} {txt}                      (1)             (2)             (3)             (4)<br />
+<html>
+<body><p>{smcl} {com}{sf}{ul off}{txt}{.-} name:  {res}<unnamed> {txt}log:  {res}C:\data\MISSING_MAIN\tbl1and2.smcl {txt}log type:  {res}smcl {txt}opened on:  {res}18 Mar 2018, 22:28:32 {txt} {com}. . <em>Table 1: Results . esttab m1a m1b m2a m2b {res} {txt}{hline 76} {txt}                      (1)             (2)             (3)             (4)<br />
 {txt}                 socprotZ        socprotZ        socprotZ        socprotZ<br />
 {txt}{hline 76} {txt}yeardvz     {res}        0.258           0.362</em>          0.314*          0.413***{txt} {res} {ralign 12:{txt:(}1.80{txt:)}}    {ralign 12:{txt:(}2.85{txt:)}}    {ralign 12:{txt:(}2.90{txt:)}}    {ralign 12:{txt:(}4.70{txt:)}}   {txt}</p>
 <p>{txt}gdp_ppp     {res}       -0.588***       -0.868***       -0.395          -0.605** {txt} {res} {ralign 12:{txt:(}-5.11{txt:)}}    {ralign 12:{txt:(}-7.10{txt:)}}    {ralign 12:{txt:(}-2.10{txt:)}}    {ralign 12:{txt:(}-4.11{txt:)}}   {txt}</p>
@@ -56,5 +57,6 @@ The file [missmain1] produces that results for Tables 1 and 2
 <pre><code>         {txt}{c |}   libdem      rIa     rIIa     rIaa    rIIaa
 </code></pre>
 <p>{hline 13}{c +}{hline 45} libdem {c |} {res}  1.0000 {txt}{c |} {c |} rIa {c |} {res} -0.3306   1.0000 {txt}{c |}{res}   0.0304 {txt}{c |} rIIa {c |} {res} -0.2304   0.8407   1.0000 {txt}{c |}{res}   0.1371   0.0000 {txt}{c |} rIaa {c |} {res} -0.3483   0.9093   0.7060   1.0000 {txt}{c |}{res}   0.0221   0.0000   0.0000 {txt}{c |} rIIaa {c |} {res} -0.2095   0.7769   0.9383   0.7786   1.0000 {txt}{c |}{res}   0.1775   0.0000   0.0000   0.0000 {txt}{c |}</p>
-<p>{com}. . log close {txt}name:  {res}<unnamed> {txt}log:  {res}C:\data\MISSING_MAIN\tbl1and2.smcl {txt}log type:  {res}smcl {txt}closed on:  {res}18 Mar 2018, 22:28:32 {txt}{.-} {smcl} {txt}{sf}{ul off}</p>
+<p>{com}. . log close {txt}name:  {res}<unnamed> {txt}log:  {res}C:\data\MISSING_MAIN\tbl1and2.smcl {txt}log type:  {res}smcl {txt}closed on:  {res}18 Mar 2018, 22:28:32 {txt}{.-} {smcl} {txt}{sf}{ul off}</p></body>
+</html>
 
