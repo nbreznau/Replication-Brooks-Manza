@@ -12,9 +12,9 @@ To build the macro-data used in the replication, users must get access to the IS
 
 Then dowload the following data in Stata format and save to the path "C:/data/": 
 
-___Role of Government___ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 1990 ([ZA1950.dta](http://dx.doi.org/10.4232/1.1950)), 1996 ([ZA2900.dta](http://dx.doi.org/10.4232/1.2900)) and 2006 ([ZA4700.dta](http://dx.doi.org/10.4232/1.4700))
+__Role of Government__ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 1990 ([ZA1950.dta](http://dx.doi.org/10.4232/1.1950)), 1996 ([ZA2900.dta](http://dx.doi.org/10.4232/1.2900)) and 2006 ([ZA4700.dta](http://dx.doi.org/10.4232/1.4700))
 
-___Religion___ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
+__Religion__ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
 
 The file [isspmrg.do] works up and merges the data.
 
