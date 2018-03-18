@@ -24,16 +24,22 @@ Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Rep
 
 ### Commands
 
-The file [isspmrg.do]( works up and merges the data.
+The file [isspmrg.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/isspmrg.do) works up and merges the data.
+
+The file [measures.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.do) constructs different versions of the social policy preferences variable. Users may check that their results match in the [measures.md](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.md) file.
+
+The file [macprep.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/macprep.do) creates the macro-level indicators. They are input by hand in the syntax so as to preserve their values (data have a funny way of changing over time).
+
+The file [kenw.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/kenw.do) merges in the Kenworthy variable containing the original Brooks and Manza preferences variable as given to Kenworthy in preparation for his [2009 article in Socio-Economic Review](https://doi.org/10.1093/ser/mwp014). 
 
 
 ## REPLICATION ANALYSES
 
 Users may shortcut to the replications with the worked up macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
 
-The file [missmain1] produces that results for Tables 1 and 2
+The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
 
-### Results
+### Table 1
 
           ------------------------------------------------------------------------------------------------------------------------------------------------------------
             log type:  smcl
@@ -95,6 +101,7 @@ The file [missmain1] produces that results for Tables 1 and 2
           t statistics in parentheses
           * p<0.05, ** p<0.01, *** p<0.001
 
+### Table 2
           . pwcorr libdem rIa rIIa rIaa rIIaa, sig
 
                        |   libdem      rIa     rIIa     rIaa    rIIaa
