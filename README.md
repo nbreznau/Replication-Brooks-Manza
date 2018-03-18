@@ -37,7 +37,7 @@ The file [kenw.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/mas
 
 Users may shortcut to the replications with the worked up macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
 
-The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
+The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) for Table 3. The [sense.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/sense.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
 
 ### Table 1
 
@@ -121,3 +121,65 @@ The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/m
                  rIIaa |  -0.2095   0.7769   0.9383   0.7786   1.0000 
                        |   0.1775   0.0000   0.0000   0.0000
                        |
+### Table 3
+          . esttab m1a m1b m2a m2b
+
+          ----------------------------------------------------------------------------
+                                (1)             (2)             (3)             (4)   
+                           socprotZ        socprotZ        socprotZ        socprotZ   
+          ----------------------------------------------------------------------------
+          yeardvz             0.278**         0.362*          0.301**         0.326** 
+                             (2.98)          (2.85)          (3.43)          (3.66)   
+
+          gdp_ppp            -0.565***       -0.868***       -0.529**        -0.577** 
+                            (-5.53)         (-7.10)         (-3.75)         (-3.79)   
+
+          unemp               0.349           0.326           0.441*          0.460*  
+                             (2.02)          (1.15)          (2.17)          (2.31)   
+
+          aged               0.0176           0.601          0.0362          0.0243   
+                             (0.24)          (1.90)          (0.56)          (0.34)   
+
+          femlabor            0.282***        0.333**         0.301***        0.321***
+                             (7.07)          (3.40)          (7.42)          (8.19)   
+
+          veto5              -0.147           1.566*         -0.259         -0.0677   
+                            (-0.58)          (2.72)         (-0.72)         (-0.20)   
+
+          govsATZ             0.614                           0.712                   
+                             (0.63)                          (0.75)                   
+
+          0bn.libdem              .                               .               .   
+                                  .                               .               .   
+
+          1.libdem           -9.014***                       -8.299***       -8.113***
+                            (-5.79)                         (-4.27)         (-4.23)   
+
+          0bn.libdem~Z            .                               .                   
+                                  .                               .                   
+
+          1.libdem#c~Z       -0.567                          -0.707                   
+                            (-0.52)                         (-0.65)                   
+
+          socialpoli~s                        4.630***                        0.872   
+                                             (4.90)                          (0.84)   
+
+          0bn.libdem~s                            .                               .   
+                                                  .                               .   
+
+          1.libdem#c~s                       -3.723**                        -0.777   
+                                            (-3.27)                         (-0.72)   
+
+          religpccab                                         0.0191          0.0234   
+                                                             (0.85)          (0.95)   
+
+          leftpccab                                        -0.00222        -0.00251   
+                                                            (-0.23)         (-0.27)   
+
+          _cons               17.13**         5.982           13.19*          12.83*  
+                             (3.85)          (0.86)          (2.52)          (2.65)   
+          ----------------------------------------------------------------------------
+          N                      43              43              43              43   
+          ----------------------------------------------------------------------------
+          t statistics in parentheses
+          * p<0.05, ** p<0.01, *** p<0.001
