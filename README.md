@@ -186,7 +186,7 @@ The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blo
           ----------------------------------------------------------------------------
           t statistics in parentheses
           * p<0.05, ** p<0.01, *** p<0.001
-
+<br></br>
 # COMMENTS / REACTIONS / RELATED
 
 ## Brooks and Manza's 2006 original paper(s)
