@@ -19,11 +19,13 @@ __Role of Government__ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 19
 
 __Religion__ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
 
+
 <dl><dt align="center">
 Kenworthy's Reproduction Data<dt>
 </dt></dl>
 
-Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/2009ser-data.xls) made available on [Lane Kenworthy's website](https://lanekenworthy.net/cv/#articles) saved in the folder C:/data/.
+Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/2009ser-data.xls) made available on [Lane Kenworthy's website](https://lanekenworthy.net/cv/#articles) saved in the folder C:/data/. These data come from his article ["The Effect of Public Opinion on Social Policy Generosity"](https://doi.org/10.1093/ser/mwp014).
+
 
 <dl><dt align="center">
 Stata Do-Files<dt>
