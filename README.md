@@ -31,7 +31,7 @@ Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Rep
 Stata Do-Files<dt>
 </dt></dl>
 NOTE: Users will need to install github and markdoc in Stata if they intend to save the results as .scml and .md docs.
-
+<br></br>
 ```{js}
 net install github, from`("https://haghish.github.io/github/")'
 ```
