@@ -1,14 +1,14 @@
-# Replication-Brooks-Manza
+# Replication of Brooks and Manza
 #### The Technical Appendix for the Paper ["The Missing Main Effect of Welfare State Regimes: A Replication of ‘Social Policy Responsiveness in Developed Democracies’ by Brooks and Manza"](https://www.sociologicalscience.com/articles-v2-20-420/) Published in _Sociological Science_, 2015, 2(20).
 This Repository contains all code necessary to replicate my work, plus the [comment](https://www.sociologicalscience.com/articles-v3-6-109/) by Weakliem published in response.
 
 {font-size: 80%;}NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/download/volume-2/august/supplemental-materials/SocSci_v2_420to441_supp.pdf) available as supplemental material from _Sociological Science_ contains all code and extra tables. It can also be downloaded as a Word document (final edit June 2nd, 2015): ["Missing Main Effect Technical Appendix .doc"](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/Breznau%20Missing%20Main%20Effect%20TECH%20APPENDIX.docx). There are some idiosyncratic naming conventions in this document meaning users should find this Repository much easier for replicating the analyses.
 
-<br><br>
-# Stata Project
+<br></br>
+# Data and Analyses
 All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project users can execute each step as a separate do-file.
 
-<br>
+<br></br>
 ## DATA PREP
 
 <dl><dt align="center">
@@ -41,7 +41,7 @@ The file [macprep.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/
 
 The file [kenw.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/kenw.do) merges in the Kenworthy variable containing the original Brooks and Manza preferences variable as given to Kenworthy in preparation for his [2009 article in Socio-Economic Review](https://doi.org/10.1093/ser/mwp014). 
 
-<br><br>
+<br></br>
 ## REPLICATION ANALYSES
 
 Users may shortcut and start here using the macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
