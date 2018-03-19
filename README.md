@@ -31,12 +31,14 @@ Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Rep
 Stata Do-Files<dt>
 </dt></dl>
 NOTE: Users will need to install github and markdoc in Stata if they intend to save the results as .scml and .md docs.
+
 ```{js}
-net install github, from("https://haghish.github.io/github/")
+net install github, from`("https://haghish.github.io/github/")'
 ```
 ```{js}
 github install haghish/markdoc
 ```
+
 The file [isspmrg.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/isspmrg.do) works up and merges the data.
 
 The file [measures.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.do) constructs different versions of the social policy preferences variable. Users may check that their results match in the [measures.md](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.md) file.
