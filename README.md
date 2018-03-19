@@ -1,4 +1,4 @@
-# REPLICATION OF BROOKS AND MANZA (2006)
+# REPLICATION OF BROOKS AND MANZA
 #### The Technical Appendix for the Paper ["The Missing Main Effect of Welfare State Regimes: A Replication of ‘Social Policy Responsiveness in Developed Democracies’ by Brooks and Manza"](https://www.sociologicalscience.com/articles-v2-20-420/) Published in _Sociological Science_, 2015, 2(20).
 This Repository contains all code necessary to replicate my work, plus the [comment](https://www.sociologicalscience.com/articles-v3-6-109/) by Weakliem published in response.
 
