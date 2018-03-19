@@ -2,7 +2,7 @@
 #### The Technical Appendix for the Paper ["The Missing Main Effect of Welfare State Regimes: A Replication of ‘Social Policy Responsiveness in Developed Democracies’ by Brooks and Manza"](https://www.sociologicalscience.com/articles-v2-20-420/) Published in _Sociological Science_, 2015, 2(20).
 This Repository contains all code necessary to replicate my work, plus the [comment](https://www.sociologicalscience.com/articles-v3-6-109/) by Weakliem published in response.
 
-{font-size: 80%;}NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/download/volume-2/august/supplemental-materials/SocSci_v2_420to441_supp.pdf) available as supplemental material from _Sociological Science_ contains all code and extra tables. It can also be downloaded as a Word document (final edit June 2nd, 2015): ["Missing Main Effect Technical Appendix .doc"](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/Breznau%20Missing%20Main%20Effect%20TECH%20APPENDIX.docx). There are some idiosyncratic naming conventions in this document meaning users should find this Repository much easier for replicating the analyses.
+NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/download/volume-2/august/supplemental-materials/SocSci_v2_420to441_supp.pdf) available as supplemental material from _Sociological Science_ contains all code and extra tables. It can also be downloaded as a Word document (final edit June 2nd, 2015): ["Missing Main Effect Technical Appendix .doc"](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/Breznau%20Missing%20Main%20Effect%20TECH%20APPENDIX.docx). There are some idiosyncratic naming conventions in this document meaning users should find this Repository much easier for replicating the analyses.
 <br></br>
 # Data and Analyses
 All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project users can execute each step as a separate do-file.
@@ -30,7 +30,13 @@ Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Rep
 <dl><dt align="center">
 Stata Do-Files<dt>
 </dt></dl>
-
+NOTE: Users will need to install github and markdoc in Stata if they intend to save the results as .scml and .md docs.
+```{js}
+net install github, from("https://haghish.github.io/github/")
+```
+```{js}
+github install haghish/markdoc
+```
 The file [isspmrg.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/isspmrg.do) works up and merges the data.
 
 The file [measures.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.do) constructs different versions of the social policy preferences variable. Users may check that their results match in the [measures.md](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/measures.md) file.
@@ -197,11 +203,53 @@ They also published a [similar paper](https://doi.org/10.1111/j.1468-2508.2006.0
 
 ## Weakliem's Comment
 
-David Weakliem replicated my work and changed the liberal regime dichotomous variable, moving Japan into the European (he argues "civil law") as opposed to the liberal ("common law") regime. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
+David Weakliem replicated my work and changed the liberal regime dichotomous variable, moving Japan into the European (he argues "civil law") as opposed to the liberal ("common law") regime. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results (Models 1 and 2) and produces a second set of results (Models 3 and 4) demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
 
-### Weakliem's Results without Robust-Clustering
+### Scrutinizing Weakliem's Results
+          ----------------------------------------------------------------------------
+                                (1)             (2)             (3)             (4)   
+                           socprotZ        socprotZ        socprotZ        socprotZ   
+          ----------------------------------------------------------------------------
+          yeardvz             0.213           0.259*          0.213           0.259   
+                             (1.86)          (2.10)          (1.60)          (2.03)   
 
-### Weakliem's Results with Robust-Clustered Standard Errors
+          gdp_ppp            -0.492**        -0.623**        -0.492**        -0.623***
+                            (-2.87)         (-3.14)         (-3.65)         (-4.86)   
+
+          unemp               0.561*          0.595**         0.561           0.595*  
+                             (2.70)          (2.76)          (2.10)          (2.29)   
+
+          aged             -0.00364         -0.0991        -0.00364         -0.0991   
+                            (-0.01)         (-0.31)         (-0.02)         (-0.43)   
+
+          femlabor            0.312***        0.361***        0.312***        0.361***
+                             (4.49)          (4.89)          (4.80)          (5.73)   
+
+          veto5            -0.00750           0.589        -0.00750           0.589   
+                            (-0.02)          (1.09)         (-0.03)          (1.25)   
+
+          govsATZ             2.498***                        2.498                   
+                             (3.88)                          (2.12)                    
+
+          1.common           -5.909***       -6.420***       -5.909*         -6.420*  
+                            (-3.66)         (-3.88)         (-2.70)         (-2.96)               
+
+          1.common#c~Z       -2.292**                        -2.292                   
+                            (-2.92)                         (-1.99)                   
+
+          socialpoli~s                        2.583**                         2.583   
+                                             (3.37)                          (2.00)   
+
+          1.common#c~s                       -2.051*                         -2.051   
+                                            (-2.50)                         (-1.77)   
+
+          _cons               9.772           11.28           9.772           11.28   
+                             (1.73)          (1.92)          (1.40)          (1.74)   
+          ----------------------------------------------------------------------------
+          N                      43              43              43              43   
+          ----------------------------------------------------------------------------
+          t statistics in parentheses
+          * p<0.05, ** p<0.01, *** p<0.001
 
 ## Political Science Replication (Janz's Blog)
 
