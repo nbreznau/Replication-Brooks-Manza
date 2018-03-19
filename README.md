@@ -197,13 +197,13 @@ They also published a [similar paper](https://doi.org/10.1111/j.1468-2508.2006.0
 
 ## Weakliem's Comment
 
-David Weakliem replicated my work and changed the liberal regime dichotomous variable, moving Japan into the European (he argues "common law") as opposed to the liberal ("civic law") regime. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
+David Weakliem replicated my work and changed the liberal regime dichotomous variable, moving Japan into the European (he argues "civil law") as opposed to the liberal ("common law") regime. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
 
 ### Weakliem's Results without Robust-Clustering
 
 ### Weakliem's Results with Robust-Clustered Standard Errors
 
-## Political Science Replication (Blog by Janz)
+## Political Science Replication (Janz's Blog)
 
 ["The Replication Road"](https://politicalsciencereplication.wordpress.com/2015/07/15/guest-post-the-replication-road-scientific-detour-or-destination-by-nate-breznau/)
 
