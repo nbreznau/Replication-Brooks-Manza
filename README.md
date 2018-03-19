@@ -2,12 +2,10 @@
 #### The Technical Appendix for the Paper ["The Missing Main Effect of Welfare State Regimes: A Replication of ‘Social Policy Responsiveness in Developed Democracies’ by Brooks and Manza"](https://www.sociologicalscience.com/articles-v2-20-420/) Published in _Sociological Science_, 2015, 2(20).
 This Repository contains all code necessary to replicate my work, plus the [comment](https://www.sociologicalscience.com/articles-v3-6-109/) by Weakliem published in response.
 
-NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/download/volume-2/august/supplemental-materials/SocSci_v2_420to441_supp.pdf) available as supplemental material from _Sociological Science_ contains all code and extra tables. It can also be accessed on GitHub as a Word document (final edit June 2nd, 2015): ["Missing Main Effect Technical Appendix .doc"](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/Breznau%20Missing%20Main%20Effect%20TECH%20APPENDIX.docx). However, be aware that the ISSP some of data used for these analyses were downloaded when variables still had an upper-case "v" prefixing the variable names but are otherwise identical. This means users should use the code provided in this Repository rather than the Word or pdf documents if they want to easily replicate the analyses.
-
-Users may also access the code to replicate my paper "Secondary Observer Effects", providing a finding related to 'researcher degrees of freedom' based on two reproductions of the original Brooks and Manza macro-data by myself and Lane Kenworthy (this is forthcoming as a separate Repository).
+{font-size: 80%;}NOTE: The original [Technical Appendix](https://www.sociologicalscience.com/download/volume-2/august/supplemental-materials/SocSci_v2_420to441_supp.pdf) available as supplemental material from _Sociological Science_ contains all code and extra tables. It can also be downloaded as a Word document (final edit June 2nd, 2015): ["Missing Main Effect Technical Appendix .doc"](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/Breznau%20Missing%20Main%20Effect%20TECH%20APPENDIX.docx). There are some idiosyncratic naming conventions in this document meaning users should find this Repository much easier for replicating the analyses.
 
 # Stata Project
-All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project all users can execute each step along the way as a separate do-file.
+All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project users can execute each step as a separate do-file.
 
 ## DATA PREP
 ### International Social Survey Program (ISSP) Data
@@ -35,9 +33,9 @@ The file [kenw.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/mas
 
 ## REPLICATION ANALYSES
 
-Users may shortcut to the replications with the worked up macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
+Users may shortcut to macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
 
-The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) for Table 3. The [sense.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/sense.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
+The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) for Table 3. The [sense.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/sense.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
 
 ### Table 1
 
@@ -180,13 +178,24 @@ The file [missmain1](https://github.com/nbreznau/Replication-Brooks-Manza/blob/m
           t statistics in parentheses
           * p<0.05, ** p<0.01, *** p<0.001
 
-# COMMENTS / REACTIONS
+# COMMENTS / REACTIONS / RELATED
 
 ## Weakliem's Comment
 
-David Weakliem replicated my work and changed the liberal regime variable, moving Japan into the common as opposed to civic law 'regime'. He published this comment in Sociological Science. I provide his code here (this is still forthcoming).
+David Weakliem replicated my work and changed the liberal regime variable, moving Japan into the common as opposed to civic law 'regime'. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
+
+### Weakliem's Results without Robust-Clustering
+
+### Weakliem's Results with Robust-Clustered Standard Errors
 
 ## Political Science Replication (Blog by Janz)
 
 ["The Replication Road"](https://politicalsciencereplication.wordpress.com/2015/07/15/guest-post-the-replication-road-scientific-detour-or-destination-by-nate-breznau/)
 
+## Secondary Observer Effects
+
+Users may also access the code to replicate a related paper ["Secondary Observer Effects"](https://doi.org/10.1080/13645579.2014.1001221), providing a finding related to 'researcher degrees of freedom' based on two reproductions of the original Brooks and Manza macro-data by myself and Lane Kenworthy (this is forthcoming as a separate Repository).
+
+## Soc Job Rumors
+
+A discussion took place in the forum SocJobRumors under the heading ["How come nobody cares that Brooks and Manza were wrong?"](http://www.socjobrumors.com/topic/how-come-nobody-cares-that-brooks-and-manza-were).
