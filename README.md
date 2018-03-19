@@ -83,17 +83,11 @@ The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blo
           govsATZ             4.141***                        2.869**                 
                              (4.50)                          (3.44)                   
 
-          0bn.libdem~Z            .                               .                   
-                                  .                               .                   
-
           1.libdem#c~Z       -3.729**                        -2.700**                 
                             (-3.57)                         (-3.14)                   
 
           socialpoli~s                        4.630***                        3.429***
                                              (4.90)                          (4.76)   
-
-          0bn.libdem~s                            .                               .   
-                                                  .                               .   
 
           1.libdem#c~s                       -3.723**                        -2.952** 
                                             (-3.27)                         (-3.93)   
@@ -160,23 +154,14 @@ The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blo
           govsATZ             0.614                           0.712                   
                              (0.63)                          (0.75)                   
 
-          0bn.libdem              .                               .               .   
-                                  .                               .               .   
-
           1.libdem           -9.014***                       -8.299***       -8.113***
                             (-5.79)                         (-4.27)         (-4.23)   
-
-          0bn.libdem~Z            .                               .                   
-                                  .                               .                   
 
           1.libdem#c~Z       -0.567                          -0.707                   
                             (-0.52)                         (-0.65)                   
 
           socialpoli~s                        4.630***                        0.872   
                                              (4.90)                          (0.84)   
-
-          0bn.libdem~s                            .                               .   
-                                                  .                               .   
 
           1.libdem#c~s                       -3.723**                        -0.777   
                                             (-3.27)                         (-0.72)   
