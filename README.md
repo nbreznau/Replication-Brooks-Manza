@@ -1,4 +1,4 @@
-# Replication of Brooks and Manza
+# REPLICATION OF BROOKS AND MANZA (2006)
 #### The Technical Appendix for the Paper ["The Missing Main Effect of Welfare State Regimes: A Replication of ‘Social Policy Responsiveness in Developed Democracies’ by Brooks and Manza"](https://www.sociologicalscience.com/articles-v2-20-420/) Published in _Sociological Science_, 2015, 2(20).
 This Repository contains all code necessary to replicate my work, plus the [comment](https://www.sociologicalscience.com/articles-v3-6-109/) by Weakliem published in response.
 
@@ -189,9 +189,15 @@ The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blo
 
 # COMMENTS / REACTIONS / RELATED
 
+## Brooks and Manza's 2006 original paper(s)
+
+["Social Policy Responsiveness in Developed Democracies"](https://doi.org/10.1177/000312240607100306) is the 2006 paper in _ASR_ that I replicate. 
+
+They also published a [similar paper](https://doi.org/10.1111/j.1468-2508.2006.00472.x) in the _Journal of Politics_ and a book [_Why Welfare States Persist_](http://press.uchicago.edu/ucp/books/book/chicago/W/bo5340649.html) using the same data and similar models.
+
 ## Weakliem's Comment
 
-David Weakliem replicated my work and changed the liberal regime variable, moving Japan into the common as opposed to civic law 'regime'. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
+David Weakliem replicated my work and changed the liberal regime dichotomous variable, moving Japan into the European (he argues "common law") as opposed to the liberal ("civic law") regime. He published this comment in Sociological Science. The file [weakl.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/weakl.do) produces Weakliem's results and produces a second set of results demonstrating that his results become insignificant when using robust-clustered standard errors as Brooks and Manza and I did in our analyses.
 
 ### Weakliem's Results without Robust-Clustering
 
