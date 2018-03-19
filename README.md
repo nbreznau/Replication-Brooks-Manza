@@ -8,19 +8,26 @@ This Repository contains all code necessary to replicate my work, plus the [comm
 All steps in the coding process are available as a Stata project [missingmain.stpr](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missingmain.stpr). From the project users can execute each step as a separate do-file.
 
 ## DATA PREP
-### International Social Survey Program (ISSP) Data
+
+<dl><dt align="center">
+International Social Survey Program (ISSP) Data<dt>
+</dt></dl>
+
 To build the macro-data used in the replication, users must get access to the ISSP data via GESIS/ZACAT. Then dowload the following data in Stata format and save to the path "C:/data/": 
 
 __Role of Government__ 1985 ([ZA1490.dta](http://dx.doi.org/10.4232/1.1490)), 1990 ([ZA1950.dta](http://dx.doi.org/10.4232/1.1950)) and 1996 ([ZA2900.dta](http://dx.doi.org/10.4232/1.2900)).
 
 __Religion__ 1991 ([ZA2150.dta](http://dx.doi.org/10.4232/1.2150)) and 1998 ([ZA3190.dta](http://dx.doi.org/10.4232/1.3190)).
 
-### Kenworthy's Reproduction
+<dl><dt align="center">
+Kenworthy's Reproduction Data<dt>
+</dt></dl>
 
 Users will also need the file [2009ser-data.xls](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/2009ser-data.xls) made available on [Lane Kenworthy's website](https://lanekenworthy.net/cv/#articles) saved in the folder C:/data/.
 
-
-### Commands
+<dl><dt align="center">
+Stata Do-Files<dt>
+</dt></dl>
 
 The file [isspmrg.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/isspmrg.do) works up and merges the data.
 
@@ -33,7 +40,7 @@ The file [kenw.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/mas
 
 ## REPLICATION ANALYSES
 
-Users may shortcut to macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
+Users may shortcut and start here using the macro-data file [int_and_e.dta](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/int_and_e.dta).
 
 The file [missmain1.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain1.do) produces that results for Tables 1 and 2, and [missmain3.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/missmain3.do) for Table 3. The [sense.do](https://github.com/nbreznau/Replication-Brooks-Manza/blob/master/sense.do) produces the sensitiivty analyses (results not shown as they include thousands of regression estimates).
 
