@@ -244,7 +244,7 @@ David Weakliem replicated my work and changed the liberal regime dichotomous var
 
 ## Secondary Observer Effects
 
-Users may also access the code to replicate a related paper ["Secondary Observer Effects"](https://doi.org/10.1080/13645579.2014.1001221), providing a finding related to 'researcher degrees of freedom' based on two reproductions of the original Brooks and Manza macro-data by myself and Lane Kenworthy (this is forthcoming as a separate Repository).
+Users may also access the code to replicate a related paper ["Secondary Observer Effects"](https://doi.org/10.1080/13645579.2014.1001221), providing a finding related to 'researcher degrees of freedom' based on two reproductions of the original Brooks and Manza macro-data by myself and Lane Kenworthy (this is forthcoming as a separate Repository but available here for now [https://osf.io/b3agu/](https://osf.io/b3agu/)).
 
 ## Soc Job Rumors
 
